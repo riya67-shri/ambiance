@@ -58,8 +58,39 @@ footer {
   p {
     text-align: justify;
     float: left;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     font-weight: 400;
+  }
+
+  footer {
+    /* width: 70%; */
+    /* margin-left: 40px; */
+    display: none;
+  }
+
+  a {
+    /* display: none; */
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  img {
+    width: 60%;
+  }
+
+  p {
+    text-align: justify;
+    float: left;
+    font-weight: 400;
+  }
+  footer {
+    /* width: 70%; */
+    /* margin-left: 40px; */
+    display: none;
+  }
+
+  a {
+    display: none;
   }
 }
